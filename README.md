@@ -1,6 +1,6 @@
 # Team Treehouse FETD 2nd Project: Responsive Layout
 
-Here, the author is tasked with creating mobile friendly, cross-browser compatible and responsive form from mockup without using Twitter Bootstrap and flex value of display property. To fulfill the needs, polyfill.js, normalize.css, HTML5 elements and CSS properties, including inline-block properties, float, box-sizing properties are utilized.
+Here, the author is tasked with creating mobile friendly, cross-browser compatible and responsive form from mockup without using Twitter Bootstrap.
 
 Keywords: HTML5, CSS3, Cross-Browser Compatibility, polyfill.js, normalize.css, inline-block, float, box-sizing, Mobile First and Responsive Design
 
