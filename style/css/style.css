@@ -53,8 +53,9 @@ header .navigation ul {
   order: -1;
 }
 
-#portfolio {
-  text-align: center;
+#headline .self-portrait img {
+  width: 70%;
+  max-width: 367px;
 }
 
 .portfolio-item {
@@ -82,6 +83,9 @@ header .navigation ul {
   flex-wrap: wrap;
 }
 
+section {
+  text-align: center;
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
@@ -110,12 +114,19 @@ header .navigation ul {
   }
 
   #headline .detail {
-    width: 70%;
+    width: 60%;
+    padding-right: 0.4em;
+    text-align: left;
   }
 
   #headline .self-portrait {
     order: 0;
-    width: 30%;
+    width: 40%;
+    padding-left: 0.4em;
+  }
+
+  #headline .self-portrait img {
+    width: 100%;
   }
 
   .portfolio-item {
@@ -165,12 +176,19 @@ header .navigation ul {
   }
 
   #headline .detail {
-    width: 70%;
+    width: 60%;
+    padding-right: 0.4em;
+    text-align: left;
   }
 
   #headline .self-portrait {
     order: 0;
-    width: 30%;
+    width: 40%;
+    padding-left: 0.4em;
+  }
+
+  #headline .self-portrait img {
+    width: 100%;
   }
 
   .portfolio-item {
