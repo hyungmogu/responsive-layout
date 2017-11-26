@@ -53,6 +53,10 @@ header .navigation ul {
   order: -1;
 }
 
+#headline .self-portrait img {
+  width: 100%;
+}
+
 #portfolio {
   text-align: center;
 }
