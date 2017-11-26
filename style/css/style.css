@@ -9,6 +9,12 @@ ul {
   margin: 0;
 }
 
+.container {
+  max-width: 930px;
+  width: 90%;
+  margin: auto;
+}
+
 footer .navigation .tablet-and-desktop {
   display: none;
 }
