@@ -55,6 +55,7 @@ header .navigation ul {
 
 #headline .self-portrait img {
   width: 70%;
+  max-width: 367px;
 }
 
 .portfolio-item {
