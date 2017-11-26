@@ -52,6 +52,9 @@ header .navigation ul {
   order: -1;
 }
 
+#portfolio {
+  text-align: center;
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
