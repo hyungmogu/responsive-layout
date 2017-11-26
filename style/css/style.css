@@ -43,6 +43,16 @@ header .navigation ul {
   text-align: center;
 }
 
+#headline .container {
+  display: flex;
+  flex-direction: column;
+}
+
+#headline .self-portrait {
+  order: -1;
+}
+
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
   header .container {
@@ -63,6 +73,19 @@ header .navigation ul {
 
   .navigation li {
     margin: 0;
+  }
+
+  #headline .container {
+    flex-direction: row;
+  }
+
+  #headline .detail {
+    width: 70%;
+  }
+
+  #headline .self-portrait {
+    order: 0;
+    width: 30%;
   }
 
 }
@@ -92,6 +115,19 @@ header .navigation ul {
 
   .navigation li:last-child {
     padding-right: 0;
+  }
+
+  #headline .container {
+    flex-direction: row;
+  }
+
+  #headline .detail {
+    width: 70%;
+  }
+
+  #headline .self-portrait {
+    order: 0;
+    width: 30%;
   }
 
 }
