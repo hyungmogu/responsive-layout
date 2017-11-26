@@ -18,6 +18,22 @@ footer .navigation .mobile {
 
 .navigation ul {
   display: flex;
+}
+
+header .container,
+footer .container {
+  display: flex;
+}
+
+footer .container {
+  justify-content: space-between;
+}
+
+header .container {
+  flex-direction: column;
+}
+
+header .navigation ul {
   flex-direction: column;
 }
 
@@ -29,6 +45,10 @@ footer .navigation .mobile {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
+  header .container {
+    flex-direction: column;
+  }
+
   footer .navigation .tablet-and-desktop {
     display: flex;
   }
@@ -37,7 +57,7 @@ footer .navigation .mobile {
     display: none;
   }
 
-  .navigation ul {
+  header .navigation ul {
     flex-direction: row;
   }
 
@@ -57,7 +77,12 @@ footer .navigation .mobile {
     display: none;
   }
 
-  .navigation ul {
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  header .navigation ul {
     flex-direction: row;
   }
 
