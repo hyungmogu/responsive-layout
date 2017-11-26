@@ -115,11 +115,13 @@ header .navigation ul {
 
   #headline .detail {
     width: 60%;
+    padding-right: 0.4em;
   }
 
   #headline .self-portrait {
     order: 0;
     width: 40%;
+    padding-left: 0.4em;
   }
 
   .portfolio-item {
@@ -170,11 +172,13 @@ header .navigation ul {
 
   #headline .detail {
     width: 60%;
+    padding-right: 0.4em;
   }
 
   #headline .self-portrait {
     order: 0;
     width: 40%;
+    padding-left: 0.4em;
   }
 
   .portfolio-item {
