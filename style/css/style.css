@@ -110,12 +110,12 @@ header .navigation ul {
   }
 
   #headline .detail {
-    width: 70%;
+    width: 60%;
   }
 
   #headline .self-portrait {
     order: 0;
-    width: 30%;
+    width: 40%;
   }
 
   .portfolio-item {
@@ -165,12 +165,12 @@ header .navigation ul {
   }
 
   #headline .detail {
-    width: 70%;
+    width: 60%;
   }
 
   #headline .self-portrait {
     order: 0;
-    width: 30%;
+    width: 40%;
   }
 
   .portfolio-item {
