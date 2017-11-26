@@ -8,6 +8,14 @@ ul {
   margin: 0;
 }
 
+footer .navigation .tablet-and-desktop {
+  display: none;
+}
+
+footer .navigation .mobile {
+  display: initial;
+}
+
 .navigation ul {
   display: flex;
   flex-direction: column;
@@ -21,6 +29,14 @@ ul {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
+  footer .navigation .tablet-and-desktop {
+    display: flex;
+  }
+
+  footer .navigation .mobile {
+    display: none;
+  }
+
   .navigation ul {
     flex-direction: row;
   }
@@ -32,6 +48,14 @@ ul {
 }
 
 @media screen and (min-width: 1024px) {
+
+  footer .navigation .tablet-and-desktop {
+    display: flex;
+  }
+
+  footer .navigation .mobile {
+    display: none;
+  }
 
   .navigation ul {
     flex-direction: row;
