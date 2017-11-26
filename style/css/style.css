@@ -13,10 +13,20 @@ ul {
   flex-direction: column;
 }
 
+.navigation li {
+  margin-bottom: 0.25em;
+  padding: 0.8em 1em;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
   .navigation ul {
     flex-direction: row;
+  }
+
+  .navigation li {
+    margin: 0;
   }
 
 }
@@ -25,6 +35,14 @@ ul {
 
   .navigation ul {
     flex-direction: row;
+  }
+
+  .navigation li {
+    margin: 0;
+  }
+
+  .navigation li:last-child {
+    padding-right: 0;
   }
 
 }
