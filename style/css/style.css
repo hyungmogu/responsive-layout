@@ -1,5 +1,6 @@
 * {
   font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
 }
 
 ul {
@@ -54,6 +55,10 @@ header .navigation ul {
 
 #portfolio {
   text-align: center;
+}
+
+.portfolio-item {
+  margin-bottom: 1.7em;
 }
 
 .portfolio-item img {
@@ -115,6 +120,15 @@ header .navigation ul {
 
   .portfolio-item {
     width: 50%;
+    padding: 0 0.25em;
+  }
+
+  .portfolio-item:nth-child(2n) {
+    padding-right: 0;
+  }
+
+  .portfolio-item:nth-child(2n+1) {
+    padding-left: 0;
   }
 
 }
@@ -161,6 +175,15 @@ header .navigation ul {
 
   .portfolio-item {
     width: 33.3333333333%;
+    padding: 0 0.25em;
+  }
+
+  .portfolio-item:nth-child(3n) {
+    padding-right: 0;
+  }
+
+  .portfolio-item:nth-child(3n+1) {
+    padding-left: 0;
   }
 
 }
