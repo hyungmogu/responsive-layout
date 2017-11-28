@@ -9,6 +9,10 @@ ul {
   margin: 0;
 }
 
+.branding {
+  text-align: center;
+}
+
 .container {
   max-width: 930px;
   width: 90%;
