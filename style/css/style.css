@@ -13,6 +13,16 @@ ul {
   text-align: center;
 }
 
+.branding a {
+  display: block;
+  padding: 1em 0;
+}
+
+.branding h1 {
+  margin: 0;
+  font-size: 1.35em;
+}
+
 .container {
   max-width: 930px;
   width: 90%;
@@ -27,8 +37,9 @@ footer .navigation .mobile {
   display: initial;
 }
 
-.navigation ul {
-  display: flex;
+header,
+footer {
+  padding: 0.5em;
 }
 
 header .container,
@@ -48,10 +59,25 @@ header .navigation ul {
   flex-direction: column;
 }
 
-.navigation li {
+header .navigation li {
   margin-bottom: 0.25em;
-  padding: 0.8em 1em;
   text-align: center;
+}
+
+header .navigation a {
+  padding: 0.8em 1em;
+}
+
+footer .navigation a {
+  padding: 1.6em 1.3em;
+}
+
+.navigation a {
+  display: block;
+}
+
+.navigation ul {
+  display: flex;
 }
 
 #headline .container {
@@ -186,11 +212,15 @@ section .title {
     flex-direction: row;
   }
 
+  header .navigation a {
+    padding: 1.45em 1.3em;
+  }
+
   .navigation li {
     margin: 0;
   }
 
-  .navigation li:last-child {
+  .navigation li:last-child a {
     padding-right: 0;
   }
 
