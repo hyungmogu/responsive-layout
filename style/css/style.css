@@ -29,6 +29,16 @@ ul {
   margin: auto;
 }
 
+#contact .detail {
+  max-width: 450px;
+  margin: auto;
+}
+
+.contact-list li:nth-of-type(n+2) .contact-type,
+.contact-list li:nth-of-type(n+2) .contact-detail {
+  margin-top: 0;
+}
+
 .contact-type, .contact-detail {
   display: inline-block;
 }
