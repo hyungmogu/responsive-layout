@@ -29,6 +29,14 @@ ul {
   margin: auto;
 }
 
+.contact-type, .contact-detail {
+  display: inline-block;
+}
+
+.contact-type {
+  margin-right: 0.5em;
+}
+
 footer .navigation .tablet-and-desktop {
   display: none;
 }
