@@ -102,6 +102,11 @@ footer .navigation a {
   max-width: 367px;
 }
 
+hr {
+  width: 88%;
+  max-width: 930px;
+}
+
 .portfolio-item {
   margin-bottom: 1.7em;
 }
