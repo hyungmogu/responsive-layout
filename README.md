@@ -1,8 +1,8 @@
 # Team Treehouse FETD 2nd Project: Responsive Layout
 
-Here, the author is tasked with creating mobile friendly, cross-browser compatible and responsive form from mockup without using Twitter Bootstrap.
+Here, the author is tasked with creating mobile friendly, cross-browser compatible and responsive form from mockup without using Twitter Bootstrap. The rubric for this project can be found here: https://drive.google.com/open?id=1I69m4RdXwG6LjrnNVnDh6I5XoZdn2j1m.
 
-Keywords: HTML5, CSS3, Cross-Browser Compatibility, polyfill.js, normalize.css, inline-block, float, box-sizing, Mobile First and Responsive Design
+Keywords: HTML5, CSS3, Cross-Browser Compatibility, normalize.css, inline-block, float, box-sizing, Mobile First and Responsive Design
 
 ## Table of Contents
 - Demo
@@ -15,7 +15,7 @@ Keywords: HTML5, CSS3, Cross-Browser Compatibility, polyfill.js, normalize.css, 
 
 ## Installation
 ### Pre-requisites
-- The only pre-requisite for this project is git, of which is used to download the project file.
+- git
 
 ### Downloading Project Files
 1. Navigate to a directory of choice
