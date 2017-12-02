@@ -49,17 +49,13 @@ ul {
   margin: auto;
 }
 
-.contact-list li:nth-of-type(n+2) .contact-type,
-.contact-list li:nth-of-type(n+2) .contact-detail {
+.contact-list li:nth-of-type(n+2) {
   margin-top: 0;
 }
 
-.contact-type, .contact-detail {
-  display: inline-block;
-}
-
-.contact-type {
-  margin-right: 0.5em;
+.contact-detail {
+  margin-left: 15px;
+  font-weight: bold;
 }
 
 footer .navigation .tablet-and-desktop {
@@ -134,6 +130,7 @@ hr {
 
 .menu a {
   text-decoration: none;
+  font-weight: bold;
 }
 
 .portfolio-item {
