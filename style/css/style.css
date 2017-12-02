@@ -24,6 +24,10 @@ ul {
   margin: 0;
 }
 
+.bg-color-grey {
+  background-color: #FAFAFA;
+}
+
 .branding {
   text-align: center;
 }
@@ -66,8 +70,7 @@ footer .navigation .mobile {
   display: initial;
 }
 
-header,
-footer {
+header {
   padding: 0.5em;
 }
 
@@ -78,6 +81,8 @@ footer .container {
 
 footer .container {
   justify-content: space-between;
+  border-top: 1px solid;
+  border-color: #E7E7E7;
 }
 
 header .container {
