@@ -100,6 +100,7 @@ header .navigation li {
 
 header .navigation a {
   padding: 0.8em 1em;
+  background-color: white;
 }
 
 footer .navigation a {
@@ -198,6 +199,10 @@ section .title {
     margin: 0;
   }
 
+  header .navigation a {
+    background-color: transparent;
+  }
+
   header .navigation ul {
     justify-content: center
   }
@@ -258,6 +263,7 @@ section .title {
 
   header .navigation a {
     padding: 1.45em 1.3em;
+    background-color: transparent;
   }
 
   .navigation li {
