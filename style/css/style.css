@@ -9,6 +9,10 @@ ul {
   margin: 0;
 }
 
+.bg-color-grey {
+  background-color: #FAFAFA;
+}
+
 .branding {
   text-align: center;
 }
