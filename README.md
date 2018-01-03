@@ -1,14 +1,13 @@
 # Team Treehouse FETD 2nd Project: Responsive Layout
 
-Here, the author is tasked with creating mobile friendly, cross-browser compatible and responsive form from mockup without using Twitter Bootstrap. The rubric for this project can be found here: https://drive.google.com/open?id=1I69m4RdXwG6LjrnNVnDh6I5XoZdn2j1m.
-
-Keywords: HTML5, CSS3, Cross-Browser Compatibility, normalize.css, inline-block, float, box-sizing, Mobile First and Responsive Design
-
 ## Table of Contents
+- Rubric
 - Demo
 - Installation
 - Usage
 
+## Rubric
+- See [here](https://drive.google.com/open?id=1I69m4RdXwG6LjrnNVnDh6I5XoZdn2j1m)
 
 ## Demo
 - Demo of this project can be viewed [here](https://hyungmogu.github.com/responsive-layout)
